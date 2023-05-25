@@ -188,10 +188,6 @@ span {
     .titulo-principal {
         margin-left: 50px;
     }
-
-    .botaodiscord {
-        display: none;
-    }
 }
 
 .logoicon {
@@ -230,6 +226,9 @@ span {
         max-width: 1400px;
         gap: 30px;
         margin-bottom: 20px;
+    }
+    .botaodiscord {
+        display: none;
     }
 }
 

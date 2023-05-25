@@ -76,3 +76,14 @@ function copyText8() {
   document.execCommand("copy");
 
 }
+function copyText10() {
+
+  var copyText = document.getElementById("myInput10");
+
+
+  copyText.select();
+
+
+  document.execCommand("copy");
+
+}

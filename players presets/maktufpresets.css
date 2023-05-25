@@ -97,13 +97,7 @@ body {
     width: 1400px;
 }
 
-#myInput,
-#myInput2,
-#myInput4,
-#myInput5,
-#myInput6,
-#myInput7,
-#myInput8 {
+#myInput,#myInput2,#myInput4,#myInput5,#myInput6,#myInput7,#myInput8,#myInput10 {
     width: 500px;
 }
 

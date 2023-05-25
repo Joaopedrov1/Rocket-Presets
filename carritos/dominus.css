@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto+Mono:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-size: auto;
+    background-image:url(/img/background\ dominus.png)
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 350px;
+    color:white;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+.presets-dominus {
+    border-radius: 10px;
+    text-align: center;
+}
+
+.presets-dominus-destaque {
+    color: #00ffb3;
+}
+
+.jogadores-perfil {
+    padding: 200px;
+    gap: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.icones {
+    max-width: 200px;
+    border-radius: 90%;
+    border: 5px solid rgb(255, 255, 255);
+    transition: transform 400ms ease-out;
+}
+
+.icones:hover {
+    transform: scale(1.15);
+}
+.texto-dos-carros {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.493);
+    padding: 5px;
+    width: 529px;
+    border-radius: 15px;
+}
+
+.rodape {
+    color:rgb(255, 255, 255);
+    background-color:rgb(30, 27, 32);
+    padding: 1px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}

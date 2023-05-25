@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto+Mono:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-size: auto;
+    background-image:url(/img/TESTEBACKGROUND.png)
+}
+
+.titulo-destaque {
+    color: #ff00aa;
+}
+
+.titulo-destaque2 {
+    color: #ff00aa
+}
+
+h1 {
+    font-weight: bold;
+    color: white;
+}
+
+span {
+    color: #00ff4c;
+}
+
+.apresentacao {
+    margin: 3% 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.texto-completo {
+    width: 1000px;
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.titulo-principal {
+    font-size: 37px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 50px;
+    background-color: rgba(0, 0, 0, 0.404);
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.paragrafo {
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    margin-right: 50px;
+    background-color: rgba(0, 0, 0, 0.404);
+    border-radius: 12px;
+    text-align: center;
+}
+
+.octaneicon,.dominusicon,.fennecicon {
+    display: block;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.644);
+    border-radius: 15px;
+    transition: transform 400ms ease-out;
+}
+
+.fennecicon:hover {
+    transform: scale(1.08);
+}
+
+.octaneicon:hover {
+    transform: scale(1.08);
+}
+
+.dominusicon:hover {
+    transform: scale(1.08);
+}
+
+.carritos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1400px;
+}
+
+.div-texto-carros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1400px;
+    margin-bottom: 50px;
+}
+
+.texto-dos-carros {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.493);
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.rodape {
+    color:rgb(255, 255, 255);
+    background-color:rgb(30, 27, 32);
+    padding: 1px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+
+}
+
+.footerzada {
+    bottom: 0;
+    width: 100%;
+    right: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1285px) {
+    .texto-completo{
+    width: 1000px;
+    color:rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 45px;
+    }
+}
+
+@media screen and (max-width: 521px) {
+        .carritos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        max-width: 1400px;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 521px) {
+    .carritos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1400px;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+}
+
+@media screen and (max-width: 553px) {
+    .texto-completo {
+        width: 1000px;
+        color:white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .logoicon {
+        display: none;
+    }
+    .texto-logo {
+        display: none;
+    }
+    .paragrafo {
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 50px;
+    }
+    .titulo-principal {
+        margin-left: 50px;
+    }
+    .botaodiscord {
+        display: none;
+    }
+}
+
+.logoicon {
+    border-radius: 90%;
+    max-width: 200px;
+    transition: transform 400ms ease-out;
+    z-index: 2;
+    animation: float 3.8s ease-in-out infinite;
+}
+
+.texto-logo {
+    background-color: rgba(0, 0, 0, 0.644);
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 776px) {
+    .footerzada {
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        right: 0;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 756px) {
+    .carritos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1400px;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(18px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.octane-texto, .dominus-texto, .fennec-texto {
+    margin-bottom: 8px;
+    background-color: rgba(0, 0, 0, 0.644);
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+
+/* MODAL  */
+
+.modal {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.432);
+    justify-content: center;
+    transition: all 0.4s;
+}
+
+.modal:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modalcontent {
+    position: relative;
+    width: 1400px;
+    background-image: url(/img/Wallpaper\ Pagina\ Principal\ Octane.png) ;
+    padding: 200px 0px;
+}
+
+.modalfooter {
+    text-align: right;
+    margin-top: 50px;
+}
+
+.modalclose {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #f5f4f7;
+    background-color: #031d29;
+    text-decoration: none;
+    font-size: 90px;
+}
+
+.modalclose:hover {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #f5f4f7;
+    background-color: #ff0000;
+    text-decoration: none;
+    font-size: 90px;
+}
+
+.presetmaktuf1 {
+    width: 1400px;
+}
+
+.octane1 {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.containerbotaodiscord {
+    display: flex;
+    justify-content: end;
+}
+
+.botaodiscord {
+    border-radius: 90%; 
+    width: 200px;
+    margin: 63px 33px;
+    transition: transform 400ms ease-out;
+}
+
+.botaodiscord:hover {
+    transform: scale(1.08);
+}

@@ -8,7 +8,7 @@
 
 body {
     background-size: auto;
-    background-image:url(/img/background\ dominus.png)
+    background-image: url(/img/background\ dominus.png)
 }
 
 .principal {
@@ -21,7 +21,7 @@ h1 {
     margin-top: 20px;
     margin-left: 20px;
     width: 350px;
-    color:white;
+    color: white;
     font-weight: bold;
     font-size: 35px;
     font-family: 'Montserrat', sans-serif;
@@ -55,6 +55,7 @@ h1 {
 .icones:hover {
     transform: scale(1.15);
 }
+
 .texto-dos-carros {
     font-size: 30px;
     text-align: center;
@@ -68,8 +69,8 @@ h1 {
 }
 
 .rodape {
-    color:rgb(255, 255, 255);
-    background-color:rgb(30, 27, 32);
+    color: rgb(255, 255, 255);
+    background-color: rgb(30, 27, 32);
     padding: 1px;
     text-align: center;
     font-size: 17px;

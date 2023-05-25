@@ -8,7 +8,7 @@
 
 body {
     background-size: auto;
-    background-image:url(/img/TESTEBACKGROUND.png)
+    background-image: url(/img/TESTEBACKGROUND.png)
 }
 
 .titulo-destaque {
@@ -37,7 +37,7 @@ span {
 
 .texto-completo {
     width: 1000px;
-    color:white;
+    color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -63,7 +63,9 @@ span {
     text-align: center;
 }
 
-.octaneicon,.dominusicon,.fennecicon {
+.octaneicon,
+.dominusicon,
+.fennecicon {
     display: block;
     height: 200px;
     background-color: rgba(0, 0, 0, 0.644);
@@ -110,8 +112,8 @@ span {
 }
 
 .rodape {
-    color:rgb(255, 255, 255);
-    background-color:rgb(30, 27, 32);
+    color: rgb(255, 255, 255);
+    background-color: rgb(30, 27, 32);
     padding: 1px;
     text-align: center;
     font-size: 17px;
@@ -128,18 +130,18 @@ span {
 }
 
 @media screen and (max-width: 1285px) {
-    .texto-completo{
-    width: 1000px;
-    color:rgb(255, 255, 255);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: 45px;
+    .texto-completo {
+        width: 1000px;
+        color: rgb(255, 255, 255);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 45px;
     }
 }
 
 @media screen and (max-width: 521px) {
-        .carritos{
+    .carritos {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -149,39 +151,44 @@ span {
 }
 
 @media screen and (max-width: 521px) {
-    .carritos{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    max-width: 1400px;
-    gap: 30px;
-    margin-bottom: 20px;
-}
+    .carritos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        max-width: 1400px;
+        gap: 30px;
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 553px) {
     .texto-completo {
         width: 1000px;
-        color:white;
+        color: white;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: 30px;
     }
+
     .logoicon {
         display: none;
     }
+
     .texto-logo {
         display: none;
     }
+
     .paragrafo {
         font-size: 25px;
         font-weight: bold;
         margin-left: 50px;
     }
+
     .titulo-principal {
         margin-left: 50px;
     }
+
     .botaodiscord {
         display: none;
     }
@@ -216,14 +223,14 @@ span {
 }
 
 @media screen and (max-width: 756px) {
-    .carritos{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    max-width: 1400px;
-    gap: 30px;
-    margin-bottom: 20px;
-}
+    .carritos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        max-width: 1400px;
+        gap: 30px;
+        margin-bottom: 20px;
+    }
 }
 
 @keyframes float {
@@ -240,7 +247,9 @@ span {
     }
 }
 
-.octane-texto, .dominus-texto, .fennec-texto {
+.octane-texto,
+.dominus-texto,
+.fennec-texto {
     margin-bottom: 8px;
     background-color: rgba(0, 0, 0, 0.644);
     border-radius: 15px;
@@ -274,7 +283,7 @@ span {
 .modalcontent {
     position: relative;
     width: 1400px;
-    background-image: url(/img/Wallpaper\ Pagina\ Principal\ Octane.png) ;
+    background-image: url(/img/Wallpaper\ Pagina\ Principal\ Octane.png);
     padding: 200px 0px;
 }
 
@@ -308,7 +317,7 @@ span {
 }
 
 .octane1 {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 
@@ -320,7 +329,7 @@ span {
 }
 
 .botaodiscord {
-    border-radius: 90%; 
+    border-radius: 90%;
     width: 200px;
     margin: 63px 33px;
     transition: transform 400ms ease-out;

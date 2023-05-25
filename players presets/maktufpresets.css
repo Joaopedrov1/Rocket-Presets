@@ -8,7 +8,7 @@
 
 body {
     background-size: auto;
-    background-image:url(/img/background\ maktuf.png)
+    background-image: url(/img/background\ maktuf.png)
 }
 
 .preset1 {
@@ -97,7 +97,13 @@ body {
     width: 1400px;
 }
 
-#myInput, #myInput2, #myInput4, #myInput5, #myInput6, #myInput7, #myInput8 {
+#myInput,
+#myInput2,
+#myInput4,
+#myInput5,
+#myInput6,
+#myInput7,
+#myInput8 {
     width: 500px;
 }
 

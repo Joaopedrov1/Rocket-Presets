@@ -112,10 +112,10 @@ body {
     .modal {
         display: flex;
         justify-self: center;
-        width: 1300px;
+        width: 1280px;
     }
     .modalcontent img{
-        width: 1300px;
+        width: 1280px;
     }
 }   
 

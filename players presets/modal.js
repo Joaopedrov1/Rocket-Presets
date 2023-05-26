@@ -14,13 +14,14 @@ function copyText2() {
 
   var copyText = document.getElementById("myInput2");
 
-
   copyText.select();
 
 
   document.execCommand("copy");
 
 }
+
+
 function copyText4() {
 
   var copyText = document.getElementById("myInput4");

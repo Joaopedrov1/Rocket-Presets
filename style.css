@@ -185,6 +185,10 @@ span {
         margin-left: 50px;
     }
 
+    .octane1 {
+        gap: 20px;
+    }
+
     .titulo-principal {
         margin-left: 50px;
     }
@@ -271,6 +275,7 @@ span {
     align-items: center;
     background: rgba(0, 0, 0, 0.432);
     justify-content: center;
+    flex-wrap: wrap;
     transition: all 0.4s;
 }
 
@@ -281,9 +286,9 @@ span {
 
 .modalcontent {
     position: relative;
-    width: 1400px;
-    background-image: url(/img/Wallpaper\ Pagina\ Principal\ Octane.png);
-    padding: 200px 0px;
+    width: 700px;
+    background-color: #031d29;
+    padding: 100px 0px;
 }
 
 .modalfooter {

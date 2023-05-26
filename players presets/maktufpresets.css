@@ -50,6 +50,7 @@ body {
     bottom: 0;
     left: 0;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     background: rgba(0, 0, 0, 0.432);
     justify-content: center;
@@ -105,4 +106,59 @@ body {
     font-size: 20px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 1420px) {
+    .modal {
+        display: flex;
+        justify-self: center;
+        width: 1300px;
+    }
+    .modalcontent img{
+        width: 1300px;
+    }
+}   
+
+@media screen and (max-width: 1321px) {
+    .modal {
+        display: flex;
+        justify-self: center;
+        width: 1100px;
+    }
+    .modalcontent img{
+        width: 1100px;
+    }
+}  
+
+@media screen and (max-width: 1122px) {
+    .modal {
+        display: flex;
+        justify-self: center;
+        width: 800px;
+    }
+    .modalcontent img{
+        width: 800px;
+    }
+} 
+
+@media screen and (max-width: 822px) {
+    .modal {
+        display: flex;
+        justify-self: center;
+        width: 600px;
+    }
+    .modalcontent img{
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 622px) {
+    .modal {
+        display: flex;
+        justify-self: center;
+        width: 400px;
+    }
+    .modalcontent img{
+        width: 400px;
+    }
 }

@@ -91,7 +91,6 @@ body {
     color: #f5f4f7;
     background-color: #ff0000;
     text-decoration: none;
-    font-size: 90px;
 }
 
 .presetmaktuf1 {
@@ -139,6 +138,9 @@ body {
     .modalcontent img{
         width: 800px;
     }
+    .modalclose {
+        font-size: 50px;
+    }
 } 
 
 @media screen and (max-width: 822px) {
@@ -150,6 +152,9 @@ body {
     .modalcontent img{
         width: 600px;
     }
+    .modalclose {
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 622px) {
@@ -160,5 +165,8 @@ body {
     }
     .modalcontent img{
         width: 400px;
+    }
+    .modalclose {
+        font-size: 17px;
     }
 }

@@ -52,7 +52,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background: rgba(0, 0, 0, 0.432);
     justify-content: center;
     transition: all 0.4s;
 }

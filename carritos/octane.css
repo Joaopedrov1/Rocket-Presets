@@ -11,15 +11,15 @@ body {
     background-image: url(/img/background\ octane\ pag.png)
 }
 
-.principal {
+/* TEXTO PRESETS FREESTYLE  */
+
+.principal-texto {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    margin-top: 1px;
 }
 
 h1 {
-    margin-top: 20px;
-    margin-left: 20px;
     width: 350px;
     color: white;
     font-weight: bold;
@@ -36,6 +36,29 @@ h1 {
 .presets-dominus-destaque {
     color: #f700ff;
 }
+
+/* TEXTO PRESETS FREESTYLE  */
+
+
+/* SETINHA DO SITE  */
+
+.setinha {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.setinha2 {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 110px;
+    transition: transform 400ms ease-out;
+}
+
+.setinha2:hover {
+    transform: scale(1.15);
+}
+
+/* SETINHA DO SITE  */
 
 .jogadores-perfil {
     padding: 200px;

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto+Mono:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-size: auto;
+    background-image: url(/img/background\ dominus.png)
+}
+/* SETINHA DO SITE  */
+
+.setinha {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.setinha2 {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 110px;
+    transition: transform 400ms ease-out;
+}
+
+.setinha2:hover {
+    transform: scale(1.15);
+}
+
+/* SETINHA DO SITE  */
+
+.iconbrasil {
+    width: 50px;
+}
+
+/* TEXTO PORTUGUES */
+
+.containerpaitexto {
+    margin: 1% 5%;
+    background-color: rgba(0, 0, 0, 0.637);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.texto1, .texto2, .texto3, .texto4 {
+    text-align: center;
+    color: white;
+    font-size: 31px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+span {
+    color: #00ff4c;
+}
+
+strong {
+    color: rgb(255, 0, 85);
+}
+
+/* TEXTO PORTUGUES */

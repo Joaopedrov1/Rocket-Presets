@@ -55,12 +55,14 @@ span {
 }
 
 .paragrafo {
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Roboto Mono', monospace;
     margin-right: 50px;
     background-color: rgba(0, 0, 0, 0.404);
     border-radius: 12px;
-    text-align: center;
+    padding: 10px;
+    text-align: justify;
+
 }
 
 .octaneicon,
@@ -113,7 +115,7 @@ span {
 
 .rodape {
     color: rgb(255, 255, 255);
-    background-color: rgb(30, 27, 32);
+    background-color: rgb(105, 105, 105);
     padding: 1px;
     text-align: center;
     font-size: 17px;
@@ -137,6 +139,12 @@ span {
         flex-wrap: wrap;
         justify-content: center;
         margin-left: 45px;
+    }
+}
+
+@media screen and (min-width: 1333px) {
+    .texto-completo {
+        height: 10px;
     }
 }
 
@@ -298,22 +306,22 @@ span {
 
 .modalclose {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 1px;
+    right: 1px;
     color: #f5f4f7;
     background-color: #031d29;
     text-decoration: none;
-    font-size: 90px;
+    font-size: 70px;
 }
 
 .modalclose:hover {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 1px;
+    right: 1px;
     color: #f5f4f7;
     background-color: #ff0000;
     text-decoration: none;
-    font-size: 90px;
+    font-size: 70px;
 }
 
 .presetmaktuf1 {

@@ -100,3 +100,15 @@ h1 {
     font-family: 'Roboto Mono', monospace;
     font-weight: bold;
 }
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #111110; 
+    opacity: 0;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 113, 212);
+    border-radius: .3rem;
+  }

@@ -350,3 +350,15 @@ span {
 .botaodiscord:hover {
     transform: scale(1.08);
 }
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #111110; 
+    opacity: 0;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(250, 113, 255);
+    border-radius: .3rem;
+  }

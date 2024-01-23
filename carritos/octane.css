@@ -20,21 +20,43 @@ body {
 }
 
 h1 {
-    width: 350px;
     color: white;
     font-weight: bold;
-    font-size: 35px;
     font-family: 'Montserrat', sans-serif;
-    background-color: black;
+    
 }
 
 .presets-dominus {
-    border-radius: 10px;
+    max-width: 510px;
     text-align: center;
+    font-size: 50px;
+    border-radius: 15px;
+    background-color: black;
+    padding: 7px;
 }
 
 .presets-dominus-destaque {
-    color: #f700ff;
+    max-width: 510px;
+    text-align: center;
+    font-size: 50px;
+    color: #ff00f2;
+    background-color: black;
+    
+}
+
+.container-escolha {
+    display: flex;
+    justify-content: center;
+}
+
+.texto-escolha {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    padding: 5px;
+    border-radius: 9px;
+
 }
 
 /* TEXTO PRESETS FREESTYLE  */
@@ -61,22 +83,11 @@ h1 {
 /* SETINHA DO SITE  */
 
 .jogadores-perfil {
-    padding: 200px;
+    padding: 100px;
     gap: 30px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-}
-
-.icones {
-    max-width: 200px;
-    border-radius: 90%;
-    border: 5px solid rgb(255, 255, 255);
-    transition: transform 400ms ease-out;
-}
-
-.icones:hover {
-    transform: scale(1.15);
 }
 
 .texto-dos-carros {
@@ -102,7 +113,7 @@ h1 {
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 10px;
   }
   ::-webkit-scrollbar-track {
     background: #111110; 
@@ -112,3 +123,60 @@ h1 {
     background: rgb(255, 113, 212);
     border-radius: .3rem;
   }
+
+
+.container-topo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.setinha-topo {
+    margin-right: 9px;
+    margin-bottom: 9px;
+    width: 80px;
+}
+
+.imagem-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    background: rgba(0, 0, 0, 0.89);
+    color: wheat;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.25s;
+    border-radius: 100%;
+}
+
+.imagem-overlay {
+    opacity: 0;
+}
+
+.imagem-overlay:hover{
+    opacity: 1;
+
+}
+
+.icones {
+    max-width: 200px;
+    border-radius: 90%;
+    border: 5px solid rgb(255, 255, 255);
+    transition: transform 400ms ease-out;
+}
+
+.icones:hover {
+    transform: scale(1.15);
+}
+
+.imagem-titulo {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0 0 0.5rem;
+}
